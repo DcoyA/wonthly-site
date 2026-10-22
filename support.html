@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>고객 지원 · Wonthly</title>
+  <meta name="description" content="Wonthly 고객 지원과 자주 묻는 질문 · Support and FAQ">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav>
+    <a class="brand" href="./">Wonthly</a>
+    <span class="spacer"></span>
+    <a href="#en" lang="en">English</a>
+  </nav>
+
+  <h1>고객 지원</h1>
+  <p class="meta">자주 묻는 질문과 문의 방법</p>
+
+  <div class="card">
+    <strong>문의하기</strong>
+    <p id="contact">문의 이메일은 곧 이 자리에 안내합니다.</p>
+    <p class="meta">문의하실 때 기록 내용이나 복구 키는 보내지 마세요. 저희는 그 정보를 요청하지 않습니다.</p>
+  </div>
+
+  <h2>자주 묻는 질문</h2>
+
+  <h3>로그인하지 않아도 쓸 수 있나요?</h3>
+  <p>네. 모든 기능을 로그인 없이 쓸 수 있고, 이때는 어떤 기록도 서버로 보내지 않습니다. 로그인은 기기를 바꾸거나 여러 기기에서 같은 기록을 보고 싶을 때만 필요합니다.</p>
+
+  <h3>제 기록은 어디에 저장되나요?</h3>
+  <p>기기 안의 암호화된 데이터베이스에 저장됩니다. 로그인해서 동기화를 켜면 기기에서 암호화한 뒤 서버에 올라가며, 서버(운영자 포함)는 그 내용을 볼 수 없습니다.</p>
+
+  <h3>복구 키가 무엇인가요? 잃어버리면 어떻게 하나요?</h3>
+  <p>복구 키는 처음 동기화를 켤 때 보여 드리는 32자리 코드로, 새 기기에서 암호화된 기록을 여는 데 필요합니다. 저희는 복구 키를 알 수 없어 다시 알려 드릴 수 없습니다. 같은 Apple 계정의 기기끼리는 iCloud 키체인으로 자동 전달됩니다. 잃어버렸다면 <strong>나 › 계정과 동기화 › 복구 키 입력 › 복구 키를 잃어버렸어요</strong>에서 서버 기록을 지우고 지금 기기의 기록으로 새로 시작할 수 있습니다.</p>
+
+  <h3>예측은 얼마나 정확한가요?</h3>
+  <p>최근 최대 6개 주기의 가중 평균으로 다음 생리일을 예측하고, 기초체온이나 Apple Watch 손목 체온이 있으면 배란 추정을 보정합니다. 그래도 예측은 참고용이며 <strong>피임이나 진단 목적으로 사용할 수 없습니다.</strong> 걱정되는 증상이 있으면 의료진과 상담하세요.</p>
+
+  <h3>Apple 건강 데이터는 어떻게 쓰이나요?</h3>
+  <p>설정에서 켠 항목(수면, 안정 시 심박, 체온, 걸음 수)만 읽어 기기 안에서 분석에 씁니다. 서버로 보내거나 동기화하지 않습니다. 언제든 <strong>나 › 건강앱 연동</strong>이나 iPhone의 건강 앱에서 끌 수 있습니다.</p>
+
+  <h3>알림이 잠금화면에 보여도 괜찮을까요?</h3>
+  <p>기본 알림 문구는 "2일 뒤 새로운 달이 시작돼요"처럼 내용이 드러나지 않게 썼습니다. <strong>나 › 알림</strong>에서 문구를 직접 바꿀 수도 있습니다.</p>
+
+  <h3>계정을 삭제하려면?</h3>
+  <p><strong>나 › 계정과 동기화 › 계정 삭제</strong>를 누르면 서버의 계정과 동기화 기록이 즉시 삭제됩니다. 기기 안의 기록은 남으며, 앱을 지우면 함께 삭제됩니다.</p>
+
+  <h3>진료용 리포트는 어떻게 만드나요?</h3>
+  <p><strong>인사이트 › 진료용 리포트</strong>에서 기간과 언어(한국어·영어)를 고르면 1~2쪽 PDF가 기기에서 만들어집니다. 공유할 곳은 직접 고르게 됩니다.</p>
+
+  <hr id="en" style="margin:48px 0;border:none;border-top:1px solid var(--border)">
+
+  <h1 lang="en">Support</h1>
+  <div lang="en">
+    <div class="card">
+      <strong>Contact</strong>
+      <p>A contact email will be listed here shortly.</p>
+      <p class="meta">Please don't send your records or recovery key. We'll never ask for them.</p>
+    </div>
+
+    <h3>Can I use Wonthly without an account?</h3>
+    <p>Yes. Every feature works without signing in, and nothing is sent to a server. Sign in only if you want your records on more than one device.</p>
+
+    <h3>Where are my records stored?</h3>
+    <p>In an encrypted database on your device. With sync on, records are encrypted on your device before upload, so the server — including us — can't read them.</p>
+
+    <h3>What is the recovery key?</h3>
+    <p>A 32-character code shown when you first turn on sync. You need it to open your encrypted records on a new device. We can't see it or show it again. Devices on the same Apple account receive it automatically through iCloud Keychain. If it's lost, go to <strong>Me › Account and sync › Enter recovery key › I lost my recovery key</strong> to erase the synced records and start over from this device.</p>
+
+    <h3>How accurate are predictions?</h3>
+    <p>Wonthly uses a weighted average of up to your last six cycles and refines ovulation estimates with basal or Apple Watch wrist temperature when available. Predictions are for reference only and <strong>must not be used for contraception or diagnosis.</strong></p>
+
+    <h3>How is Apple Health data used?</h3>
+    <p>Only the items you turn on are read and used on your device. They're never sent to a server or synced.</p>
+
+    <h3>How do I delete my account?</h3>
+    <p>Go to <strong>Me › Account and sync › Delete account</strong>. Your account and synced records are deleted from the server immediately; records on your device stay until you delete the app.</p>
+  </div>
+
+  <p style="margin-top:40px"><a href="privacy.html">개인정보처리방침</a> · <a href="privacy-en.html">Privacy Policy</a></p>
+  <footer>© 2026 Wonthly</footer>
+</main>
+</body>
+</html>
